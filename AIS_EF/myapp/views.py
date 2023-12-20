@@ -12,8 +12,8 @@ def integrantes(request):
 
 
 def v_crear_producto(request):
-    return render(request, 'v_crear_producto.html')
+    return render(request, 'crear_producto.html')
 
 
 def v_crear_curso(request):
-    return render(request, 'v_crear_curso.html')
+    return render(request, 'crear_curso.html')
